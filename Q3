@@ -2,6 +2,7 @@
 
 int cal_add (int a, int b);
 int cal_sub (int a, int b);
+int cal_mult (int a, int b);
 
 int main(void)
 {
@@ -41,7 +42,7 @@ int cal_sub (int a, int b){
     result_sub = a-b;
     return result_sub;}
 
-int calc_mult(int a, int b){
+int cal_mult(int a, int b){
     int result_mult;
     result_mult = a * b;
     return result_mult;}
